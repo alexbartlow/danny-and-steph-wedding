@@ -1,0 +1,67 @@
+@import 'bourbon/bourbon';
+
+@import 'neat/neat';
+@import url("http://fonts.googleapis.com/css?family=Petit+Formal+Script");
+
+body {
+  font-family: "Petit Formal Script", cursive;
+  background-image: url(../../img/ricepaper.png);
+  background-position: initial initial;
+  background-repeat: initial initial;
+}
+
+$blue: #2e4197;
+
+@mixin blue-background {
+  background-image: url(../../img/bluepaper.png);
+  background-position: initial initial;
+  background-repeat: initial initial;
+}
+
+header {
+  @include outer-container;
+  @include blue-background;
+  border: 1px solid $blue;
+  color: darken(white, 5%);
+}
+
+header div {
+  @include span-columns(6);
+  h1, h2 { margin-left: 1em; margin-right: 1em; }
+  h1 { text-align: left;} h2 { text-align: right;}
+}
+section { @include outer-container; }
+section#hero { img { @include span-columns(12); } }
+
+article {
+  @include span-columns(4);
+  
+  div {
+    @include span-columns(2 of 4);
+  }
+}
+section#spacer {
+  @include outer-container;
+  height: 1em;
+  @include blue-background;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+section#information {
+  min-height: 600px;
+  background-image: url(../../img/floralheader.png);
+  background-repeat: no-repeat;
+
+  padding-top: 300px;
+}
+
+section#footer {
+  min-height: 400px;
+  background-image: url(../../img/floralfooter.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}

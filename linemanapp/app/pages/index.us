@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stephanie Burton & Daniel Rodgers Wedding</title>
+    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Danny and Stephanie</h1>
+      </div>
+
+      <div>
+        <h2>June 28, 2014</h2>
+      </div>
+    </header>
+
+    <section id="hero">
+      <img src="img/hero.png"/>
+    </section>
+
+    <section id="spacer">
+
+    </section>
+
+    <section id="information">
+      <article>
+        <h2>Location</h2>
+        <a href="http://goo.gl/maps/1o4FP">
+        <p>The Ohio Wildlife Center</p>
+        <p>6131 Cook Road, Powell Ohio</p>
+        </a>
+
+        <h2>Reception to Follow</h2>
+        <a href="http://goo.gl/maps/85I3H">
+        <p>
+          <p>Bridgewater Banquet Center</p>
+          <p>10561 Sawmill Parkway</p>
+          <p>Powell, Ohio</p>
+        </p>
+        </a>
+      </article>
+
+      <article>
+        <h2>June 28, 2014</h2>
+        <h3>5:30 PM </h3>
+      </article>
+
+      <article>
+        <h2>Registration</h2>
+
+        <div>
+        <a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=541281164&pwsurl=" target="_blank">
+          <img src="http://www.bedbathandbeyond.com/_assets/global/images/logo/logo_bbb.png"/>
+        </a>
+        </div>
+
+        <div>
+        <a href="http://www.target.com/RegistryGiftGiverCmd?registrySearchTerm=Stephanie+Burton&catalogId=10051&registryType=WD&langId=-1&listId=j5r6r6dP7vmvjnkj7bMZBw" target="_blank">
+          <img src="./img/target.gif"/>
+        </a>
+        </div>
+
+      </article>
+    </section>
+
+    <section id="footer">
+
+    </section>
+
+    <script type="text/javascript" src="<%= js %>"></script>
+  </body>
+</html>
